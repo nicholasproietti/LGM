@@ -8,7 +8,7 @@ This repository is a shared workspace for the PHYS 549 group project at Rice Uni
 light curve features, exoplanet, and host star parameters in existing data collected by the *Kepler* mission with exoplanet radii estimates through regression using neural networks.
 
 <p float="left">
-  <img src="cheops-transit-method.gif" width="400" />
+  <img src="cheops-transit-method.gif" width="340" />
   <img src="Kepler.png" width="400" /> 
 </p>
 
