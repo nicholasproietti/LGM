@@ -4,8 +4,8 @@
 **Team Name: Little Green Men (LGM)**
 <br/>
 <br/>
-This repository is a shared workspace for the PHYS 549 group project at Rice University by LGM. The goal of this project is to establish a link between
-light curve features, exoplanet and host star parameters in existing data collected by the *Kepler* mission and exoplanet radii estimates through regression using neural networks.
+This repository is a shared workspace for the PHYS 549 group project at Rice University by LGM. The goal of this project is to link
+light curve features, exoplanet, and host star parameters in existing data collected by the *Kepler* mission with exoplanet radii estimates through regression using neural networks.
 
 ## Regression analysis of exoplanet radii using neural networks
 ### Required files
@@ -19,11 +19,11 @@ The Kepler light curve data was formerly acquired through the [Mikulski Archive 
 ### Main Codes
 `LC_FFT_CNN` is the file in which we are trying to remove dominant frequencies from the LC and train it using a convolutional neural network (In progress)
 
-`XGB_Kepler` is the file in which we have used a XGB Regressor to train using KOI parameters to predict exoplanet radius
+`XGB_Kepler` is the file in which we have used an XGB Regressor to train using KOI parameters to predict exoplanet radius
 
-`Light_Curve_Simulation` is the file in which we are trying to simulate an exoplant transit light curve (In Progress)
+`Light_Curve_Simulation` is the file in which we are trying to simulate an exoplanet transit light curve (In Progress)
 
-`Kepler_Light_Curve_Reader` is the file which illustrates the learning journey of the authors to acquire, wrangle, explore, and use the Kepler data for modelling. Regression efforts using [Multi-layer Perceptron regressors](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPRegressor.html#sklearn.neural_network.MLPRegressor) start under the section *Working with Kepler Light Curve Data from Kepler Object of Interest (KOI) Table* in the code. This code currently uses KOI parameters of the exoplanet and the host star as inputs and exoplanet radii as outputs. Immediate future work will add light curves as inputs and improve the regressors (In Progress).
+`Kepler_Light_Curve_Reader` is the file that illustrates the learning journey of the authors to acquire, wrangle, explore, and use the Kepler data for modeling. Regression efforts using [Multi-layer Perceptron regressors](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPRegressor.html#sklearn.neural_network.MLPRegressor) start under the section *Working with Kepler Light Curve Data from Kepler Object of Interest (KOI) Table* in the code. This code currently uses KOI parameters of the exoplanet and the host star as inputs and exoplanet radii as outputs. Immediate future work will add light curves as inputs and improve the regressors (In Progress).
 
 ### Notes
 When running these codes in Google Colab, some libraries may not be already installed (e.g. *lightkurve*, *astroquery*). To install the necessary libraries, run in a cell
