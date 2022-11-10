@@ -4,7 +4,7 @@
 **Team Name: Little Green Men (LGM)**
 <br/>
 <br/>
-This repository is a shared workspace for the PHYS 549 group project by LGM. The goal of this project is to establish a link between
+This repository is a shared workspace for the PHYS 549 group project at Rice University by LGM. The goal of this project is to establish a link between
 light curve features, exoplanet and host star parameters in existing data collected by the *Kepler* mission and exoplanet radii estimates through regression using neural networks.
 
 ## Regression analysis of exoplanet radii using neural networks
@@ -23,9 +23,9 @@ The Kepler light curve data was formerly acquired through the [Mikulski Archive 
 
 `Light_Curve_Simulation` is the file in which we are trying to simulate an exoplant transit light curve (In Progress)
 
-`Kepler_Light_Curve_Reader` is the file which illustrates the learning journey of the authors to acquire, wrangle, explore, and use the Kepler data for modelling. Regression efforts using [multi-layer Perceptron regressors](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPRegressor.html#sklearn.neural_network.MLPRegressor) start under the section *Working with Kepler Light Curve Data from Kepler Object of Interest (KOI) Table* in the code. This code currently uses KOI parameters of the exoplanet and the host star as inputs and exoplanet radii as outputs. Immediate future work will add light curves as inputs (In Progress).
+`Kepler_Light_Curve_Reader` is the file which illustrates the learning journey of the authors to acquire, wrangle, explore, and use the Kepler data for modelling. Regression efforts using [Multi-layer Perceptron regressors](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPRegressor.html#sklearn.neural_network.MLPRegressor) start under the section *Working with Kepler Light Curve Data from Kepler Object of Interest (KOI) Table* in the code. This code currently uses KOI parameters of the exoplanet and the host star as inputs and exoplanet radii as outputs. Immediate future work will add light curves as inputs (In Progress).
 
-### NOtes
+### Notes
 When running these codes in Google Colab, some libraries may not be already installed (e.g. *lightkurve*, *astroquery*). To install the necessary libraries, run in a cell
 
 ```
