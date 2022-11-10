@@ -22,7 +22,7 @@ The Kepler light curve data was formerly acquired through the [Mikulski Archive 
 
 `Light_Curve_Simulation` is the file in which we are trying to simulate an exoplant transit light curve (In Progress)
 
-`Kepler_Light_Curve_Reader` illustrates the learning journey of the authors to acquire, wrangle, explore, and use the Kepler data for modelling. Regression efforts using [multi-layer Perceptron regressors](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPRegressor.html#sklearn.neural_network.MLPRegressor) start under the section `Working with Kepler Light Curve Data from Kepler Object of Interest (KOI) Table` in the code. 
+`Kepler_Light_Curve_Reader` illustrates the learning journey of the authors to acquire, wrangle, explore, and use the Kepler data for modelling. Regression efforts using [multi-layer Perceptron regressors](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPRegressor.html#sklearn.neural_network.MLPRegressor) start under the section *Working with Kepler Light Curve Data from Kepler Object of Interest (KOI) Table* in the code. 
 
 Note that when running these codes in Google Colab, some libraries may not be already installed (e.g. *lightkurve*, *astroquery*). To install the necessary libraries, run in a cell
 
