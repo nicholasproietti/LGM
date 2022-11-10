@@ -5,5 +5,5 @@
 <br/>
 <br/>
 This repository is a shared workspace for the PHYS 549 group project by LGM. The goal of this project is to establish a link between
-light curve features in existing data collected by the *Kepler* mission and exoplanet radii estimates.
+light curve features in existing data collected by the *Kepler* mission and exoplanet radii estimates through neural networks.
 
