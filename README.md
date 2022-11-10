@@ -16,3 +16,5 @@ light curve features in existing data collected by the *Kepler* mission and exop
 LC_FFT_CNN is the file in which we are trying to remove dominat frequencies from the LC and train it using a CNN (In progress)
 
 XGB_Kepler is the file in which we have used a XGB Regressor to train using KOI parameters to predict exoplanet radius
+
+Light_Curve_Simulation is the file in which we are trying to simulate an exoplant transit light curve (In Progress)
