@@ -7,9 +7,12 @@
 This repository is a shared workspace for the PHYS 549 group project at Rice University by LGM. The goal of this project is to link
 light curve features, exoplanet, and host star parameters in existing data collected by the *Kepler* mission with exoplanet radii estimates through regression using neural networks.
 
-![](https://github.com/nicholasproietti/LGM/blob/main/cheops-transit-method.gif)
-<br/>
-*A basic picture of the exoplanet transit method (Source: The Planetary Society)*
+<p float="left">
+  <img src="cheops-transit-method.gif" width="400" />
+  <img src="Kepler.png" width="400" /> 
+</p>
+
+*Left*: A basic picture of the exoplanet transit method (Source: *The Planetary Society*). *Right*: Kepler Space Telescope (Source: *NASA*).
 
 ## Regression analysis of exoplanet radii using neural networks
 ### Required files
