@@ -9,3 +9,5 @@ light curve features in existing data collected by the *Kepler* mission and exop
 
 ## Regression analysis of exoplanet radii using neural networks
 ### Required files
+1. KIC_FIRST_100.csv
+2. KOI.csv
