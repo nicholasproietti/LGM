@@ -42,7 +42,6 @@ radii and constructing a distribution of their radii, and ultimately contribute
 to the characterization of exoplanet demographics (e.g. are they Jupiter-like?
 Earth-like? etc.).
 
-## Regression analysis of exoplanet radii using neural networks
 ### Required files
 1. KIC_FIRST_100.csv
 2. KOI.csv
@@ -68,3 +67,7 @@ When running these codes in Google Colab, some libraries may not be already inst
 ```
 
 replacing `library_name` with the necessary library.
+
+## Data used 
+The KOI table can be found on the [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=cumulative), in addition to the [glossary for the data columns](https://exoplanetarchive.ipac.caltech.edu/docs/API_kepcandidate_columns.html).
+
