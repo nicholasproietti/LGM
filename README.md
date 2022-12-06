@@ -69,7 +69,7 @@ When running these codes in Google Colab, some libraries may not be already inst
 replacing `library_name` with the necessary library.
 
 ## Data used 
-The KOI table can be found on the [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=cumulative), in addition to the [glossary for the data columns](https://exoplanetarchive.ipac.caltech.edu/docs/API_kepcandidate_columns.html). 
-
+The KOI table can be found on the [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=cumulative), in addition to the [glossary for the data columns](https://exoplanetarchive.ipac.caltech.edu/docs/API_kepcandidate_columns.html). `data/KOI.csv` describes the current results of different searches of the Kepler light curves as of Sept. 27, 2018. `data/KOI_first_100.csv` describes the first 100 rows of `CANDIDATE` sources from the KOI table.
+ 
 The Kepler light curves may be retrieved in several ways. For this project, the Kepler light curve data was formerly acquired through the [Mikulski Archive for Space Telescopes (MAST)](https://stdatu.stsci.edu/kepler/genops.html) and is currently acquired through the [lightkurve package](https://docs.lightkurve.org/). *lightkurve* offers a user-friendly way to analyze time series data on the brightness of planets, stars, and galaxies. The package is focused on supporting science with NASA’s Kepler and TESS space telescopes.
 
