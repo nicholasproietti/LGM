@@ -14,6 +14,34 @@ light curve features, exoplanet, and host star parameters in existing data colle
 
 *Left*: A basic picture of the exoplanet transit method (Source: *The Planetary Society*). *Right*: Kepler Space Telescope (Source: *NASA*).
 
+## Project Overview
+
+For millennia, our solar system was the only known example of planets orbiting
+a central star. The very idea of planets around other stars, or extrasolar planets
+for short, would have changed the worldviews of many people throughout history.
+Yet in 1992, the discovery of worlds outside our solar system, exoplanets,
+have revolutionized the field of astronomy. Also known as extrasolar planets,
+these bodies often orbit their stars with some being a part of entire planetary
+systems. This revolution is now in full bloom, with new discoveries coming at a
+rapid pace. The advancing science of extrasolar planets has dramatic implications
+for our understanding of our place in the universe. The fact that planets
+are common in the universe makes it seem more likely that we might someday
+find life elsewhere, perhaps even intelligent life. Moreover, having many more
+worlds to compare to our own vastly enhances our ability to learn how planets
+work, which may help us better understand our home planet, Earth. It also
+allows us to test the nebular theory of solar system formation in new settings.
+
+However, we would like to learn more about these planets other than confirming
+their existence. We would like to learn about the nature of these planets.
+Our project focuses on learning the sizes, or radii, of existing exoplanet data
+collected by the Kepler mission. By using Fourier transforms, neural networks,
+and Kepler information about known exoplanets, we will analyze these signals
+of exoplanetary systems, known as light curves, to unlock essential properties of
+exoplanets, specifically by establishing a link between light curve features and
+radii and constructing a distribution of their radii, and ultimately contribute
+to the characterization of exoplanet demographics (e.g. are they Jupiter-like?
+Earth-like? etc.).
+
 ## Regression analysis of exoplanet radii using neural networks
 ### Required files
 1. KIC_FIRST_100.csv
