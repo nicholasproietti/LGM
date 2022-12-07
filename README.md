@@ -49,7 +49,7 @@ Earth-like? etc.).
 
 `Light_Curve_Simulation` is the file in which we are trying to simulate an exoplanet transit light curve (In Progress)
 
-`Kepler_Light_Curve_Reader` is the file that illustrates the learning journey of the authors to acquire, wrangle, explore, and use the Kepler data for modeling. Regression efforts using [Multi-layer Perceptron regressors](https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPRegressor.html#sklearn.neural_network.MLPRegressor) start under the section *Working with Kepler Light Curve Data from Kepler Object of Interest (KOI) Table* in the code. This code currently uses KOI parameters of the exoplanet and the host star as inputs and exoplanet radii as outputs. Immediate future work will add light curves as inputs and improve the regressors (In Progress).
+`KOI_Regression.ipynb` - Illustrates the results of exoplanet radii predictions from the Kepler Object of Interest (KOI) table parameters using an MLP regressor
 
 ## Data used 
 The KOI table can be found on the [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=cumulative), in addition to the [glossary for the data columns](https://exoplanetarchive.ipac.caltech.edu/docs/API_kepcandidate_columns.html). `data/KOI.csv` describes the current results of different searches of the Kepler light curves as of Sept. 27, 2018. `data/KOI_first_100.csv` describes the first 100 rows of `CANDIDATE` sources from the KOI table.
