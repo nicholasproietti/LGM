@@ -47,8 +47,6 @@ Earth-like? etc.).
 
 `XGB_Kepler` is the file in which we have used an XGB Regressor to train using KOI parameters to predict exoplanet radius
 
-`Light_Curve_Simulation` is the file in which we are trying to simulate an exoplanet transit light curve in Progress
-
 `KOI_Regression.ipynb` - Illustrates the results of exoplanet radii predictions from the Kepler Object of Interest (KOI) table parameters using an MLP regressor
 
 ## Data used 
