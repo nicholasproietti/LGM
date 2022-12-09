@@ -45,8 +45,6 @@ Earth-like? etc.).
 ### Main Codes
 `MLP_Filtered_LC` is the file in which we remove dominant frequencies from the LC and train it using a Multi-layer Perceptron
 
-`XGB_Kepler` is the file in which we have used an XGB Regressor to train using KOI parameters to predict exoplanet radius
-
 `KOI_Regression.ipynb` - Illustrates the results of exoplanet radii predictions from the Kepler Object of Interest (KOI) table parameters using an MLP regressor
 
 ## Data used 
