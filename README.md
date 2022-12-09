@@ -47,9 +47,9 @@ Earth-like? etc.).
 
 `KOI_Regression.ipynb` - Illustrates the results of exoplanet radii predictions from the Kepler Object of Interest (KOI) table parameters using an MLP regressor
 
-'CNN_Regressor.ipynb - Exoplanet radii predictions from the light curves using an 1D CNN regressor
+'CNN_Regressor.ipynb' - Exoplanet radii predictions from the light curves using an 1D CNN regressor
 
-'bls.ipynb - Shows how to create periodogram by bls method
+'bls.ipynb' - Shows how to create periodogram by bls method
 
 ## Data used 
 The KOI table can be found on the [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/cgi-bin/TblView/nph-tblView?app=ExoTbls&config=cumulative), in addition to the [glossary for the data columns](https://exoplanetarchive.ipac.caltech.edu/docs/API_kepcandidate_columns.html). `data/KOI.csv` describes the current results of different searches of the Kepler light curves as of Sept. 27, 2018. `data/KOI_first_100.csv` describes the first 100 rows of `CANDIDATE` sources from the KOI table.
