@@ -43,7 +43,7 @@ to the characterization of exoplanet demographics (e.g. are they Jupiter-like?
 Earth-like? etc.).
 
 ### Main Codes
-`LC_FFT_CNN` is the file in which we are trying to remove dominant frequencies from the LC and train it using a convolutional neural network
+`MLP_Filtered_LC` is the file in which we remove dominant frequencies from the LC and train it using a Multi-layer Perceptron
 
 `XGB_Kepler` is the file in which we have used an XGB Regressor to train using KOI parameters to predict exoplanet radius
 
