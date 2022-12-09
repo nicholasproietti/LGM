@@ -43,7 +43,7 @@ to the characterization of exoplanet demographics (e.g. are they Jupiter-like?
 Earth-like? etc.).
 
 ### Main Codes
-`MLP_Filtered_LC` is the file in which we remove dominant frequencies from the LC and train it using a Multi-layer Perceptron
+`MLP_Filtered_LC.ipynb` is the file in which we remove dominant frequencies from the LC and train it using a Multi-layer Perceptron
 
 `KOI_Regression.ipynb` - Illustrates the results of exoplanet radii predictions from the Kepler Object of Interest (KOI) table parameters using an MLP regressor
 
